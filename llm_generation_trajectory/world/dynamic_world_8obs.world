@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <actor name="actor1">
+      <pose>4.68 8.44 1 0 0 6.8500000000000005</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>0</delay_start>
+      <plugin name="actor1_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor1/cmd_vel</vel_topic>
+        <path_topic>/actor1/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor2">
+      <pose>1.77 6.33 1 0 0 1.79</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor2_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor2/cmd_vel</vel_topic>
+        <path_topic>/actor2/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor3">
+      <pose>5.63 3.94 1 0 0 2.84</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor3_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor3/cmd_vel</vel_topic>
+        <path_topic>/actor3/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor4">
+      <pose>9.01 4.22 1 0 0 4.94</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor4_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor4/cmd_vel</vel_topic>
+        <path_topic>/actor4/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor5">
+      <pose>7.84 5.45 1 0 0 4.78</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor5_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor5/cmd_vel</vel_topic>
+        <path_topic>/actor5/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor6">
+      <pose>7.94 2.2 1 0 0 2.42</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor6_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor6/cmd_vel</vel_topic>
+        <path_topic>/actor6/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor7">
+      <pose>7.13 6.92 1 0 0 7.16</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor7_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor7/cmd_vel</vel_topic>
+        <path_topic>/actor7/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <actor name="actor8">
+      <pose>9.1 5.64 1 0 0 2.63</pose>
+      <skin>
+        <filename>walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.00</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <delay_start>15</delay_start>
+      <plugin name="actor8_plugin" filename="libgazebo_ros_actor_command.so">
+        <!-- <follow_mode>path</follow_mode> -->
+        <follow_mode>velocity</follow_mode>
+        <vel_topic>/actor8/cmd_vel</vel_topic>
+        <path_topic>/actor8/cmd_path</path_topic>
+        <animation_factor>4.0</animation_factor>
+        <linear_tolerance>0.1</linear_tolerance>
+        <linear_velocity>1</linear_velocity>
+        <angular_tolerance>0.0872</angular_tolerance>
+        <angular_velocity>2.5</angular_velocity>
+        <default_rotation>1.57</default_rotation>
+      </plugin>
+    </actor>
+
+    <plugin 
+      name="bounding_box_plugin" 
+      filename="/home/andrea/ros_packages_aggiuntivi/devel/lib/libbounding_box_plugin.so" 
+    />
+                      
+    </world>
+</sdf>

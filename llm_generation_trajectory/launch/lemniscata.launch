@@ -1,0 +1,21 @@
+<launch>
+  <param name="simulation_type" value="static"/>
+  <param name="obs_number" value="0"/>
+
+
+  <include file="$(find interbotix_xslocobot_nav)/launch/xslocobot_nav_sim.launch">
+    <arg name="robot_model"                               value="locobot_base"/>
+    <arg name="paused"                                    value="false"/>
+    <arg name="use_sim_time"                              value="true"/>
+    <arg name="gui"                                       value="true"/>
+  </include>
+
+
+  <node
+    pkg="llm_generation_trajectory"
+    type="gptServer.py"
+    name="gptServer"
+    output="screen">
+  </node>
+
+</launch>

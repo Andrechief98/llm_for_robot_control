@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <model name="obstacle_0">
+      <pose>2.26 8.86 0.74 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.23 1.17 1.47</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.23 1.17 1.47</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="obstacle_1">
+      <pose>5.2 5.79 0.43 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.93 1.73 0.86</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.93 1.73 0.86</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <plugin 
+      name="bounding_box_plugin" 
+      filename="/home/andrea/ros_packages_aggiuntivi/devel/lib/libbounding_box_plugin.so" 
+    />
+                      
+    </world>
+</sdf>
