@@ -1,0 +1,5268 @@
+{
+  "gpt-4o": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5.0,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 3.5198142528533936
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 4.7124,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 2.3124778270721436
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.732
+              ],
+              "orientation_to_reach": 2.094,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 4.188,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            }
+          ]
+        },
+        "response_time": 1.8291809558868408
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 3.14,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 3.183866262435913
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                5
+              ],
+              "orientation_to_reach": 0.7853981633974483,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.7853981633974483,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                9
+              ],
+              "orientation_to_reach": 0.7853981633974483,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            }
+          ]
+        },
+        "response_time": 1.7607789039611816
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.785398,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.785398,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.927295,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.142397,
+              "time_duration": 4
+            }
+          ]
+        },
+        "response_time": 1.6838274002075195
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                6,
+                6
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                6
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                6
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.3536,
+              "angular_velocity": 0.3536,
+              "time_duration": 8.8858
+            }
+          ]
+        },
+        "response_time": 2.6695735454559326
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.75,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                8,
+                4
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": -1.57,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                8,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": -1.57,
+              "time_duration": 2
+            }
+          ]
+        },
+        "response_time": 2.424546241760254
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3.5,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                3.5,
+                3.5
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                2,
+                3.5
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1,
+              "time_duration": 3
+            }
+          ]
+        },
+        "response_time": 2.882683515548706
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                1.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                1.5,
+                3.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.25,
+              "angular_velocity": 3.0,
+              "time_duration": 0.5236
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                9.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 12.0
+            }
+          ]
+        },
+        "response_time": 9.619543313980103
+      }
+    ]
+  },
+  "gpt-4o-mini": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                3
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5707963267948966,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                3
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                3
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": -1.5707963267948966,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            }
+          ]
+        },
+        "response_time": 2.976614236831665
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                0,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            }
+          ]
+        },
+        "response_time": 4.335242748260498
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                5,
+                3.464
+              ],
+              "orientation_to_reach": 1.0471975511965976,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.0471975511965976,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": -1.0471975511965976,
+              "time_duration": 2
+            }
+          ]
+        },
+        "response_time": 3.5151805877685547
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                1.0,
+                2.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                1.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            }
+          ]
+        },
+        "response_time": 3.9441885948181152
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 1.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                3.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                4.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                5.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                6.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                7.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                8.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            }
+          ]
+        },
+        "response_time": 7.140820503234863
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7853981633974483,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.6435011087932844,
+              "linear_velocity": 0.5,
+              "angular_velocity": -0.5,
+              "time_duration": 6.0
+            }
+          ]
+        },
+        "response_time": 2.222412586212158
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            }
+          ]
+        },
+        "response_time": 12.93425989151001
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4.5,
+                3
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                3.5
+              ],
+              "orientation_to_reach": 1.57,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": -1.57,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            }
+          ]
+        },
+        "response_time": 4.300609350204468
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5708,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5708,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                4.5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 0.1,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                5.5,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5708,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 0,
+              "time_duration": 0
+            }
+          ]
+        },
+        "response_time": 9.785937309265137
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 0.0,
+              "time_duration": 0
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2,
+                3.5
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3.5,
+                4
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 1.4
+            },
+            {
+              "position_to_reach": [
+                5,
+                5
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 1.0,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            }
+          ]
+        },
+        "response_time": 9.000028133392334
+      }
+    ]
+  },
+  "o1-preview": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.5708
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.5708
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.5708
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.5708
+            }
+          ]
+        },
+        "response_time": 51.21084117889404
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.57079633,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.57079633
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.57079633,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.14159265,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.57079633
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.14159265,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.57079633,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.57079633
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.57079633,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1.57079633
+            }
+          ]
+        },
+        "response_time": 45.54332876205444
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 2.09439510239,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3962634016
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.73205080757
+              ],
+              "orientation_to_reach": 2.09439510239,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.73205080757
+              ],
+              "orientation_to_reach": -2.09439510239,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3962634016
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -2.09439510239,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3962634016
+            }
+          ]
+        },
+        "response_time": 76.65579605102539
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 12.566
+            }
+          ]
+        },
+        "response_time": 42.92060565948486
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.49948886,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.999659241
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 1.49948886,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 14.04390362
+            }
+          ]
+        },
+        "response_time": 26.535289525985718
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0,
+              "angular_velocity": 1.0,
+              "time_duration": 0.7854
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2.8284
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.9273,
+              "linear_velocity": 0,
+              "angular_velocity": 1.0,
+              "time_duration": 0.1419
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.9273,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 10.0
+            }
+          ]
+        },
+        "response_time": 36.21000337600708
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                6.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.570796,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047198
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                6.0
+              ],
+              "orientation_to_reach": 1.570796,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                6.0
+              ],
+              "orientation_to_reach": 3.141593,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047198
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                6.0
+              ],
+              "orientation_to_reach": 3.141593,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                6.0
+              ],
+              "orientation_to_reach": -1.570796,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047198
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.570796,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047198
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 25.132741
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            }
+          ]
+        },
+        "response_time": 64.44591045379639
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                9,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14
+            },
+            {
+              "position_to_reach": [
+                9,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                9,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                9,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14
+            }
+          ]
+        },
+        "response_time": 51.13379764556885
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 6.2832
+            },
+            {
+              "position_to_reach": [
+                2,
+                6
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 6.2832
+            },
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 6.2832
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 6.2832
+            }
+          ]
+        },
+        "response_time": 117.09628176689148
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                1.0,
+                3.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 9.4248
+            },
+            {
+              "position_to_reach": [
+                1.0,
+                3.0
+              ],
+              "orientation_to_reach": 0.8761,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.6313
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                9.0
+              ],
+              "orientation_to_reach": 0.8761,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 15.6205
+            }
+          ]
+        },
+        "response_time": 77.68627142906189
+      }
+    ]
+  },
+  "o1-mini": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            }
+          ]
+        },
+        "response_time": 20.170684576034546
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            }
+          ]
+        },
+        "response_time": 18.984291315078735
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.73
+              ],
+              "orientation_to_reach": 1.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.73
+              ],
+              "orientation_to_reach": 2.1,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 2.1,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4
+            }
+          ]
+        },
+        "response_time": 31.084483861923218
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 12.566
+            }
+          ]
+        },
+        "response_time": 12.886949062347412
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.504,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 1.504,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 14
+            }
+          ]
+        },
+        "response_time": 14.520315170288086
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.785,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.277,
+              "time_duration": 2.828
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.927,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.014,
+              "time_duration": 10
+            }
+          ]
+        },
+        "response_time": 17.21718430519104
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                6.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                6.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                6.0,
+                6.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                6.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                6.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 25.1327
+            }
+          ]
+        },
+        "response_time": 28.66004967689514
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.570796,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                5.0
+              ],
+              "orientation_to_reach": 1.570796,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                5.0
+              ],
+              "orientation_to_reach": -1.570796,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 2.094
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                5.0
+              ],
+              "orientation_to_reach": -1.570796,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            }
+          ]
+        },
+        "response_time": 28.425071477890015
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.33,
+                2.33
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.67
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                1.67,
+                2.33
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.047
+            }
+          ]
+        },
+        "response_time": 30.180283546447754
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                1.667,
+                2.333
+              ],
+              "orientation_to_reach": -1.571,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 3.141
+            },
+            {
+              "position_to_reach": [
+                1.667,
+                2.333
+              ],
+              "orientation_to_reach": 1.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.714
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 1.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 15.9
+            }
+          ]
+        },
+        "response_time": 17.116328239440918
+      }
+    ]
+  },
+  "o3-mini": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 17.102046012878418
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 29.937881231307983
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 2.094,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.396
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.732
+              ],
+              "orientation_to_reach": 2.094,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.732
+              ],
+              "orientation_to_reach": -2.094,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.396
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -2.094,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.396
+            }
+          ]
+        },
+        "response_time": 25.090371131896973
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 12.57
+            }
+          ]
+        },
+        "response_time": 16.6767578125
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 1.5,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14.04
+            }
+          ]
+        },
+        "response_time": 10.463077068328857
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.5236
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2.8284
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.9273,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.0946
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.9273,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 10
+            }
+          ]
+        },
+        "response_time": 17.915271282196045
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                6
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                6,
+                6
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                6
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                2,
+                6
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 25.1327
+            }
+          ]
+        },
+        "response_time": 30.61531972885132
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                8,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 12
+            },
+            {
+              "position_to_reach": [
+                8,
+                4
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 6.283185307179586
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 12
+            }
+          ]
+        },
+        "response_time": 36.4516875743866
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                5.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                5.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                5.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.3333,
+              "time_duration": 9.4248
+            }
+          ]
+        },
+        "response_time": 79.36002731323242
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.25,
+              "time_duration": 18.8496
+            },
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": 0.6947,
+              "linear_velocity": 0,
+              "angular_velocity": 1.0,
+              "time_duration": 2.2655
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 0.6947,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 15.6205
+            }
+          ]
+        },
+        "response_time": 25.90767002105713
+      }
+    ]
+  },
+  "DeepSeek V3": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                5.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 6.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                3.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            }
+          ]
+        },
+        "response_time": 33.419304847717285
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            }
+          ]
+        },
+        "response_time": 25.815204620361328
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 2.0943951023931953,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3962634015954636
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.732050807568877
+              ],
+              "orientation_to_reach": 2.0943951023931953,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.732050807568877
+              ],
+              "orientation_to_reach": 4.1887902047863905,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3962634015954636
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 4.1887902047863905,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.3962634015954636
+            }
+          ]
+        },
+        "response_time": 29.298068046569824
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": "error",
+        "response_time": 21.102547883987427
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.499,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.999
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 1.499,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14.036
+            }
+          ]
+        },
+        "response_time": 16.45825171470642
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7853981633974483,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 2.8284271247461903
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.7853981633974483,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 5.0
+            }
+          ]
+        },
+        "response_time": 4.757028102874756
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.141592653589793,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5707963267948966,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0471975511965976
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.0
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 12.566370614359172
+            }
+          ]
+        },
+        "response_time": 22.982308864593506
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                0.5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 3
+            },
+            {
+              "position_to_reach": [
+                2,
+                0.5
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5,
+              "time_duration": 2.0944
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 3
+            }
+          ]
+        },
+        "response_time": 20.40436100959778
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3.5708,
+                3.5708
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 3.1416
+            },
+            {
+              "position_to_reach": [
+                3.5708,
+                5.1416
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 3.1416
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                5.1416
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 3.1416
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 3.1416
+            }
+          ]
+        },
+        "response_time": 32.139832496643066
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": "error",
+        "response_time": 22.56160879135132
+      }
+    ]
+  },
+  "DeepSeek V3-fewShot": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 14.181986570358276
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 11.19631814956665
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.0472,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.6981
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.732
+              ],
+              "orientation_to_reach": 1.0472,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                3.0,
+                3.732
+              ],
+              "orientation_to_reach": -1.0472,
+              "linear_velocity": 0.0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.3963
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.0472,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.6981
+            }
+          ]
+        },
+        "response_time": 16.556370735168457
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 6.2832
+            }
+          ]
+        },
+        "response_time": 4.693104982376099
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2.5,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 1.0
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 14.0
+            }
+          ]
+        },
+        "response_time": 7.617815971374512
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.8284
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.0,
+              "angular_velocity": 0.0,
+              "time_duration": 0.0
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 5.0
+            }
+          ]
+        },
+        "response_time": 12.962581396102905
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.5,
+              "time_duration": 6.2832
+            }
+          ]
+        },
+        "response_time": 24.585019826889038
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                4
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                6,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": -1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 13.309528589248657
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                2.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                4.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.0
+            },
+            {
+              "position_to_reach": [
+                2.0,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 15.862086534500122
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                0,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                0,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                0,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 12
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14
+            }
+          ]
+        },
+        "response_time": 27.49822425842285
+      }
+    ]
+  },
+  "gpt-4o-fewShot": {
+    "trial_1": [
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 3 m and Y = 1 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 4.451526641845703
+      },
+      {
+        "objective": "perform a square trajectory of length 2 meters",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                4
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 4.042714595794678
+      },
+      {
+        "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 4
+            },
+            {
+              "position_to_reach": [
+                4,
+                2
+              ],
+              "orientation_to_reach": 2.0944,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3963
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.732
+              ],
+              "orientation_to_reach": 2.0944,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 3.4641
+            },
+            {
+              "position_to_reach": [
+                3,
+                3.732
+              ],
+              "orientation_to_reach": -2.0944,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3963
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -2.0944,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 3.4641
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.3963
+            }
+          ]
+        },
+        "response_time": 4.85546088218689
+      },
+      {
+        "objective": "perform a circle trajectory of radius 1 meter",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                1,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                1
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 2.383448600769043
+      },
+      {
+        "objective": "reach the position (x,y) = (2.5, 9.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                5
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                5
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 1
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                9
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            }
+          ]
+        },
+        "response_time": 3.5272676944732666
+      },
+      {
+        "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 2.8284
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 0.9828,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1.5,
+              "time_duration": 0.1312
+            },
+            {
+              "position_to_reach": [
+                6,
+                7
+              ],
+              "orientation_to_reach": 0.9828,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 8.0623
+            }
+          ]
+        },
+        "response_time": 3.4379234313964844
+      },
+      {
+        "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 0.7854,
+              "linear_velocity": 0.3536,
+              "angular_velocity": 0.7854,
+              "time_duration": 4.4429
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 2.3562,
+              "linear_velocity": 0.3536,
+              "angular_velocity": 0.7854,
+              "time_duration": 4.4429
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 3.9269,
+              "linear_velocity": 0.3536,
+              "angular_velocity": 0.7854,
+              "time_duration": 4.4429
+            },
+            {
+              "position_to_reach": [
+                2.5,
+                2.5
+              ],
+              "orientation_to_reach": 5.4978,
+              "linear_velocity": 0.3536,
+              "angular_velocity": 0.7854,
+              "time_duration": 4.4429
+            }
+          ]
+        },
+        "response_time": 5.60839319229126
+      },
+      {
+        "objective": "perform an horizontal U trajectory",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                3,
+                5
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                3,
+                5
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                5
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                5
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 3.7872586250305176
+      },
+      {
+        "objective": "perform a square trajectory with an arch as side",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                3,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 3.2341272830963135
+      },
+      {
+        "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                1,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                1,
+                3
+              ],
+              "orientation_to_reach": 4.7124,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                1,
+                2
+              ],
+              "orientation_to_reach": 4.7124,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                1,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 8
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                6,
+                9
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 14
+            }
+          ]
+        },
+        "response_time": 6.684829473495483
+      }
+    ]
+  },
+  "tests": {
+    "trial_1": [
+      {
+        "objective": "Reach point (4.0, 4.0) passing through (3.5, 2.0)",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                3.5,
+                2.0
+              ],
+              "orientation_to_reach": 0.0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 3.0
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.326,
+              "linear_velocity": 0.0,
+              "angular_velocity": 1,
+              "time_duration": 1.326
+            },
+            {
+              "position_to_reach": [
+                4.0,
+                4.0
+              ],
+              "orientation_to_reach": 1.326,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0.0,
+              "time_duration": 4.12
+            }
+          ]
+        },
+        "response_time": 4.788285970687866
+      },
+      {
+        "objective": "perform a rectangle trajectory of dimension X = 1 m and Y = 3 m",
+        "response": {
+          "commands_list": [
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                5,
+                2
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                5,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": 3.1416,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 2
+            },
+            {
+              "position_to_reach": [
+                2,
+                3
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": -1.5708,
+              "linear_velocity": 0.5,
+              "angular_velocity": 0,
+              "time_duration": 6
+            },
+            {
+              "position_to_reach": [
+                2,
+                2
+              ],
+              "orientation_to_reach": 0,
+              "linear_velocity": 0,
+              "angular_velocity": 1.5,
+              "time_duration": 1.0472
+            }
+          ]
+        },
+        "response_time": 17.102046012878418
+      }
+    ]
+  }
+}
