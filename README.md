@@ -1,13 +1,13 @@
 # Experimental Results and Metrics
 
-This repository contains the numerical results and analysis scripts for three different experiments. Each experiment explores distinct aspects of the system under evaluation, and includes relevant data and scripts for metric computation and visualization.
+This repository contains the numerical results and analysis scripts for the three different experiments proposed in the article. Each experiment explores distinct aspects of the system under evaluation, and includes relevant data and scripts for metric computation and visualization.
 
 ## Repository Structure
 
 
 ## How to use it
 ### Low Level Control
-The python script "low_level_control.py" allows to evaluate the performance of considered LLMs by executing the commands generated within a Turtlesim simulation using ROS 2. The LLM responses are stored in the `results.json` file.
+The python script "low_level_control.py" allows to evaluate the performance of considered LLMs by executing the models generated low level control commands within a Turtlesim simulation using ROS 2. The LLMs responses are stored in the `1.low_level_control/results.json` file.
 
 Before running the script, make sure you have a running instance of the Turtlesim node in ROS 2. You can launch the simulation with the following commands:
 
@@ -27,7 +27,17 @@ Once the simulation is running, the script:
 4. Computes the mean and standard deviation of the inference times for each model.
 
 ### Complex Path Planning
-Results are store in the result.json file.
+The python script "plot_lemniscate.py" allows to evaluate the performance of considered LLMs in generating complex path (lemniscate) subject to different geometrical contraints. The generated trajectories are stored in the `2.complex_path_planning/results.json` file.
+
+1. When the script is executed, it:
+
+2. Parses the JSON responses to extract the trajectory points for each model.
+
+3. Plots each lemniscate path individually for visual inspection.
+
+4. Extracts the associated inference times from the JSON file.
+
+5. Computes the mean and standard deviation of inference times for each model.
 
 ### Obstacle avoidance
 
