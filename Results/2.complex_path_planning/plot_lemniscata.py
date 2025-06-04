@@ -5,7 +5,7 @@ import os
 
 script_dir = os.path.dirname(__file__)
 
-with open(os.path.join(script_dir,"lemniscata_results.json"),"r") as f:
+with open(os.path.join(script_dir,"results.json"),"r") as f:
     lemniscata_dict = json.load(f)
 
 models_to_test = ["o3-mini", "gpt-4o", "gpt-4o few-shot", "DeepSeek V3", "DeepSeek V3 few-shot"]
