@@ -57,7 +57,6 @@ def main(args=None):
         "gpt-4o-fewShot" : [],
         "DeepSeek V3-fewShot" : [],
         "o3-mini" : [],
-        "tests" : []
     }
 
     
