@@ -67,7 +67,7 @@
             }
           ]
         },
-        "response_time": 3.5198142528533936
+        "inference_time": 3.5198142528533936
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -115,7 +115,7 @@
             }
           ]
         },
-        "response_time": 2.3124778270721436
+        "inference_time": 2.3124778270721436
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -153,7 +153,7 @@
             }
           ]
         },
-        "response_time": 1.8291809558868408
+        "inference_time": 1.8291809558868408
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -201,7 +201,7 @@
             }
           ]
         },
-        "response_time": 3.183866262435913
+        "inference_time": 3.183866262435913
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -229,7 +229,7 @@
             }
           ]
         },
-        "response_time": 1.7607789039611816
+        "inference_time": 1.7607789039611816
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -257,7 +257,7 @@
             }
           ]
         },
-        "response_time": 1.6838274002075195
+        "inference_time": 1.6838274002075195
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -315,7 +315,7 @@
             }
           ]
         },
-        "response_time": 2.6695735454559326
+        "inference_time": 2.6695735454559326
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -363,7 +363,7 @@
             }
           ]
         },
-        "response_time": 2.424546241760254
+        "inference_time": 2.424546241760254
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -411,7 +411,7 @@
             }
           ]
         },
-        "response_time": 2.882683515548706
+        "inference_time": 2.882683515548706
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -469,7 +469,7 @@
             }
           ]
         },
-        "response_time": 9.619543313980103
+        "inference_time": 9.619543313980103
       }
     ]
   },
@@ -541,7 +541,7 @@
             }
           ]
         },
-        "response_time": 2.976614236831665
+        "inference_time": 2.976614236831665
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -599,7 +599,7 @@
             }
           ]
         },
-        "response_time": 4.335242748260498
+        "inference_time": 4.335242748260498
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -637,7 +637,7 @@
             }
           ]
         },
-        "response_time": 3.5151805877685547
+        "inference_time": 3.5151805877685547
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -685,7 +685,7 @@
             }
           ]
         },
-        "response_time": 3.9441885948181152
+        "inference_time": 3.9441885948181152
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -773,7 +773,7 @@
             }
           ]
         },
-        "response_time": 7.140820503234863
+        "inference_time": 7.140820503234863
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -801,7 +801,7 @@
             }
           ]
         },
-        "response_time": 2.222412586212158
+        "inference_time": 2.222412586212158
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -1009,7 +1009,7 @@
             }
           ]
         },
-        "response_time": 12.93425989151001
+        "inference_time": 12.93425989151001
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -1087,7 +1087,7 @@
             }
           ]
         },
-        "response_time": 4.300609350204468
+        "inference_time": 4.300609350204468
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -1265,7 +1265,7 @@
             }
           ]
         },
-        "response_time": 9.785937309265137
+        "inference_time": 9.785937309265137
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -1333,7 +1333,7 @@
             }
           ]
         },
-        "response_time": 9.000028133392334
+        "inference_time": 9.000028133392334
       }
     ]
   },
@@ -1425,7 +1425,7 @@
             }
           ]
         },
-        "response_time": 51.21084117889404
+        "inference_time": 51.21084117889404
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -1513,7 +1513,7 @@
             }
           ]
         },
-        "response_time": 45.54332876205444
+        "inference_time": 45.54332876205444
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -1581,7 +1581,7 @@
             }
           ]
         },
-        "response_time": 76.65579605102539
+        "inference_time": 76.65579605102539
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -1599,7 +1599,7 @@
             }
           ]
         },
-        "response_time": 42.92060565948486
+        "inference_time": 42.92060565948486
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -1627,7 +1627,7 @@
             }
           ]
         },
-        "response_time": 26.535289525985718
+        "inference_time": 26.535289525985718
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -1675,7 +1675,7 @@
             }
           ]
         },
-        "response_time": 36.21000337600708
+        "inference_time": 36.21000337600708
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -1793,7 +1793,7 @@
             }
           ]
         },
-        "response_time": 64.44591045379639
+        "inference_time": 64.44591045379639
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -1851,7 +1851,7 @@
             }
           ]
         },
-        "response_time": 51.13379764556885
+        "inference_time": 51.13379764556885
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -1899,7 +1899,7 @@
             }
           ]
         },
-        "response_time": 117.09628176689148
+        "inference_time": 117.09628176689148
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -1937,7 +1937,7 @@
             }
           ]
         },
-        "response_time": 77.68627142906189
+        "inference_time": 77.68627142906189
       }
     ]
   },
@@ -2029,7 +2029,7 @@
             }
           ]
         },
-        "response_time": 20.170684576034546
+        "inference_time": 20.170684576034546
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -2107,7 +2107,7 @@
             }
           ]
         },
-        "response_time": 18.984291315078735
+        "inference_time": 18.984291315078735
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -2165,7 +2165,7 @@
             }
           ]
         },
-        "response_time": 31.084483861923218
+        "inference_time": 31.084483861923218
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -2183,7 +2183,7 @@
             }
           ]
         },
-        "response_time": 12.886949062347412
+        "inference_time": 12.886949062347412
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -2211,7 +2211,7 @@
             }
           ]
         },
-        "response_time": 14.520315170288086
+        "inference_time": 14.520315170288086
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -2239,7 +2239,7 @@
             }
           ]
         },
-        "response_time": 17.21718430519104
+        "inference_time": 17.21718430519104
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -2337,7 +2337,7 @@
             }
           ]
         },
-        "response_time": 28.66004967689514
+        "inference_time": 28.66004967689514
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -2395,7 +2395,7 @@
             }
           ]
         },
-        "response_time": 28.425071477890015
+        "inference_time": 28.425071477890015
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -2443,7 +2443,7 @@
             }
           ]
         },
-        "response_time": 30.180283546447754
+        "inference_time": 30.180283546447754
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -2481,7 +2481,7 @@
             }
           ]
         },
-        "response_time": 17.116328239440918
+        "inference_time": 17.116328239440918
       }
     ]
   },
@@ -2573,7 +2573,7 @@
             }
           ]
         },
-        "response_time": 17.102046012878418
+        "inference_time": 17.102046012878418
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -2661,7 +2661,7 @@
             }
           ]
         },
-        "response_time": 29.937881231307983
+        "inference_time": 29.937881231307983
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -2729,7 +2729,7 @@
             }
           ]
         },
-        "response_time": 25.090371131896973
+        "inference_time": 25.090371131896973
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -2747,7 +2747,7 @@
             }
           ]
         },
-        "response_time": 16.6767578125
+        "inference_time": 16.6767578125
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -2775,7 +2775,7 @@
             }
           ]
         },
-        "response_time": 10.463077068328857
+        "inference_time": 10.463077068328857
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -2823,7 +2823,7 @@
             }
           ]
         },
-        "response_time": 17.915271282196045
+        "inference_time": 17.915271282196045
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -2931,7 +2931,7 @@
             }
           ]
         },
-        "response_time": 30.61531972885132
+        "inference_time": 30.61531972885132
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-        "response_time": 36.4516875743866
+        "inference_time": 36.4516875743866
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -3037,7 +3037,7 @@
             }
           ]
         },
-        "response_time": 79.36002731323242
+        "inference_time": 79.36002731323242
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -3075,7 +3075,7 @@
             }
           ]
         },
-        "response_time": 25.90767002105713
+        "inference_time": 25.90767002105713
       }
     ]
   },
@@ -3167,7 +3167,7 @@
             }
           ]
         },
-        "response_time": 33.419304847717285
+        "inference_time": 33.419304847717285
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -3255,7 +3255,7 @@
             }
           ]
         },
-        "response_time": 25.815204620361328
+        "inference_time": 25.815204620361328
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -3323,12 +3323,12 @@
             }
           ]
         },
-        "response_time": 29.298068046569824
+        "inference_time": 29.298068046569824
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
         "response": "error",
-        "response_time": 21.102547883987427
+        "inference_time": 21.102547883987427
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -3356,7 +3356,7 @@
             }
           ]
         },
-        "response_time": 16.45825171470642
+        "inference_time": 16.45825171470642
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -3384,7 +3384,7 @@
             }
           ]
         },
-        "response_time": 4.757028102874756
+        "inference_time": 4.757028102874756
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -3492,7 +3492,7 @@
             }
           ]
         },
-        "response_time": 22.982308864593506
+        "inference_time": 22.982308864593506
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -3540,7 +3540,7 @@
             }
           ]
         },
-        "response_time": 20.40436100959778
+        "inference_time": 20.40436100959778
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -3588,12 +3588,12 @@
             }
           ]
         },
-        "response_time": 32.139832496643066
+        "inference_time": 32.139832496643066
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
         "response": "error",
-        "response_time": 22.56160879135132
+        "inference_time": 22.56160879135132
       }
     ]
   },
@@ -3685,7 +3685,7 @@
             }
           ]
         },
-        "response_time": 14.181986570358276
+        "inference_time": 14.181986570358276
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -3773,7 +3773,7 @@
             }
           ]
         },
-        "response_time": 11.19631814956665
+        "inference_time": 11.19631814956665
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -3841,7 +3841,7 @@
             }
           ]
         },
-        "response_time": 16.556370735168457
+        "inference_time": 16.556370735168457
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -3859,7 +3859,7 @@
             }
           ]
         },
-        "response_time": 4.693104982376099
+        "inference_time": 4.693104982376099
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -3897,7 +3897,7 @@
             }
           ]
         },
-        "response_time": 7.617815971374512
+        "inference_time": 7.617815971374512
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -3935,7 +3935,7 @@
             }
           ]
         },
-        "response_time": 12.962581396102905
+        "inference_time": 12.962581396102905
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -4043,7 +4043,7 @@
             }
           ]
         },
-        "response_time": 24.585019826889038
+        "inference_time": 24.585019826889038
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -4131,7 +4131,7 @@
             }
           ]
         },
-        "response_time": 13.309528589248657
+        "inference_time": 13.309528589248657
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -4219,7 +4219,7 @@
             }
           ]
         },
-        "response_time": 15.862086534500122
+        "inference_time": 15.862086534500122
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -4327,7 +4327,7 @@
             }
           ]
         },
-        "response_time": 27.49822425842285
+        "inference_time": 27.49822425842285
       }
     ]
   },
@@ -4419,7 +4419,7 @@
             }
           ]
         },
-        "response_time": 4.451526641845703
+        "inference_time": 4.451526641845703
       },
       {
         "objective": "perform a square trajectory of length 2 meters",
@@ -4507,7 +4507,7 @@
             }
           ]
         },
-        "response_time": 4.042714595794678
+        "inference_time": 4.042714595794678
       },
       {
         "objective": "perform an equilateral triangle trajectory of side 2 meters with base parallel to x axis",
@@ -4575,7 +4575,7 @@
             }
           ]
         },
-        "response_time": 4.85546088218689
+        "inference_time": 4.85546088218689
       },
       {
         "objective": "perform a circle trajectory of radius 1 meter",
@@ -4623,7 +4623,7 @@
             }
           ]
         },
-        "response_time": 2.383448600769043
+        "inference_time": 2.383448600769043
       },
       {
         "objective": "reach the position (x,y) = (2.5, 9.0)",
@@ -4681,7 +4681,7 @@
             }
           ]
         },
-        "response_time": 3.5272676944732666
+        "inference_time": 3.5272676944732666
       },
       {
         "objective": "go to point (x,y)=(6,7) passing through (x,y)=(3,3)",
@@ -4719,7 +4719,7 @@
             }
           ]
         },
-        "response_time": 3.4379234313964844
+        "inference_time": 3.4379234313964844
       },
       {
         "objective": "perform a square trajectory and than a circle trajectory inscribed in the square",
@@ -4847,7 +4847,7 @@
             }
           ]
         },
-        "response_time": 5.60839319229126
+        "inference_time": 5.60839319229126
       },
       {
         "objective": "perform an horizontal U trajectory",
@@ -4935,7 +4935,7 @@
             }
           ]
         },
-        "response_time": 3.7872586250305176
+        "inference_time": 3.7872586250305176
       },
       {
         "objective": "perform a square trajectory with an arch as side",
@@ -5023,7 +5023,7 @@
             }
           ]
         },
-        "response_time": 3.2341272830963135
+        "inference_time": 3.2341272830963135
       },
       {
         "objective": "Create 3/4 of a circle and go to point (x,y)= (6,9)",
@@ -5131,7 +5131,7 @@
             }
           ]
         },
-        "response_time": 6.684829473495483
+        "inference_time": 6.684829473495483
       }
     ]
   },
@@ -5173,7 +5173,7 @@
             }
           ]
         },
-        "response_time": 4.788285970687866
+        "inference_time": 4.788285970687866
       },
       {
         "objective": "perform a rectangle trajectory of dimension X = 1 m and Y = 3 m",
@@ -5261,7 +5261,7 @@
             }
           ]
         },
-        "response_time": 17.102046012878418
+        "inference_time": 17.102046012878418
       }
     ]
   }

@@ -14,41 +14,43 @@ class Publisher(Node):
     def __init__(self):
         super().__init__('publisher')
         
-        # Publisher per i comandi di velocità
+        # Publisher for velocity commands
         self.cmd_vel_pub = self.create_publisher(Twist, 'turtle1/cmd_vel', 10)
         
-        # Client per il servizio teleport_absolute
+        # Client for the "teleport_absolute" service (it is used to move the robot in a given initial position)
         self.teleport_client = self.create_client(TeleportAbsolute, 'turtle1/teleport_absolute')
+
+        # Client for the "clear" service (it is used to clear the screen from previous robot's path)
         self.clearScreen = self.create_client(Empty, 'clear')
-        # while not teleport_client.wait_for_service(timeout_sec=1.0):
-        #     self.get_logger().info("In attesa del servizio teleport_absolute...")
+
         
 
 def main(args=None):
     rclpy.init(args=args)
     node = Publisher()
 
-    # Chiamata al servizio teleport_absolute
+    # Call "teleport_absolute" service to move the turtlesim in the initial position (2,2) with orientation along the x-axis (theta=0)
     teleport_req = TeleportAbsolute.Request()
     teleport_req.x = 2.0
     teleport_req.y = 2.0
     teleport_req.theta = 0.0
     future = node.teleport_client.call_async(teleport_req)
     time.sleep(2)
+
+    # Clear the screen
     clear_req = Empty.Request()
     future = node.clearScreen.call_async(clear_req)
     time.sleep(2)
 
+    # Open the file to store the extract the LLM's generated velocity commands
     script_dir = os.path.dirname(__file__)
-
-    with open(os.path.join(script_dir, "LowLevelCommands/1_Interaction_results.json"), "r") as f:
+    with open(os.path.join(script_dir, "results.json"), "r") as f:
         data = json.load(f)
 
     list_of_models = ["gpt-4o", "DeepSeek V3", "gpt-4o-fewShot", "DeepSeek V3-fewShot","o3-mini",]
-    list_of_models = ["gpt-4o-fewShot", "DeepSeek V3-fewShot"]
     list_of_trials = ["trial_1"]
 
-    
+    # Dictionary to store the total inference time of each test (for each model) and compute mean and std_dev metrics
     durations = {
         "gpt-4o" : [],
         "DeepSeek V3" : [],
@@ -62,20 +64,20 @@ def main(args=None):
     for model in list_of_models:
         for trial in list_of_trials:
             for objective_dict in data[model][trial]:
-                durations[model].append(round(objective_dict["response_time"],2))
+                durations[model].append(round(objective_dict["inference_time"],2))
     
     print("Durations:")
     print(durations)
 
-    deepSeek_fewshot_mean = statistics.mean(durations["DeepSeek V3-fewShot"])
-    gpt4_fewshot_mean = statistics.mean(durations["gpt-4o-fewShot"])
-    print(f"DeepSeek V3-fewShot mean: {deepSeek_fewshot_mean}")
-    print(f"gpt-4o-fewShot mean: {gpt4_fewshot_mean}")
+    # deepSeek_fewshot_mean = statistics.mean(durations["DeepSeek V3-fewShot"])
+    # gpt4_fewshot_mean = statistics.mean(durations["gpt-4o-fewShot"])
+    # print(f"DeepSeek V3-fewShot mean: {deepSeek_fewshot_mean}")
+    # print(f"gpt-4o-fewShot mean: {gpt4_fewshot_mean}")
     
-    deepSeek_fewshot_std = statistics.stdev(durations["DeepSeek V3-fewShot"])
-    gpt4_fewshot_std = statistics.stdev(durations["gpt-4o-fewShot"])
-    print(f"DeepSeek V3-fewShot stdev: {deepSeek_fewshot_std}")
-    print(f"gpt-4o-fewShot stdev: {gpt4_fewshot_std}")
+    # deepSeek_fewshot_std = statistics.stdev(durations["DeepSeek V3-fewShot"])
+    # gpt4_fewshot_std = statistics.stdev(durations["gpt-4o-fewShot"])
+    # print(f"DeepSeek V3-fewShot stdev: {deepSeek_fewshot_std}")
+    # print(f"gpt-4o-fewShot stdev: {gpt4_fewshot_std}")
 
 
 
@@ -83,7 +85,7 @@ def main(args=None):
         print(f"Tested model: {model}")
         for trial in list_of_trials:
             for objective_dict in data[model][trial]:
-                durations[model].append(objective_dict["response_time"])
+                durations[model].append(objective_dict["inference_time"])
 
                 if objective_dict["response"] == "error":
                     continue
@@ -121,7 +123,7 @@ def main(args=None):
                         continue
 
 
-                # Chiamata al servizio teleport_absolute
+                # Stop the robot
                 msg = Twist()
                 msg.linear.x = 0.0
                 msg.angular.z = 0.0
@@ -129,6 +131,7 @@ def main(args=None):
                 node.cmd_vel_pub.publish(msg)
                 time.sleep(2)
 
+                # Move the robot in the initial position
                 teleport_req = TeleportAbsolute.Request()
                 teleport_req.x = 2.0
                 teleport_req.y = 2.0
@@ -136,6 +139,8 @@ def main(args=None):
                 
                 future = node.teleport_client.call_async(teleport_req)
                 time.sleep(2)
+
+                # Clear the screen
                 clear_req = Empty.Request()
                 future = node.clearScreen.call_async(clear_req)
 
