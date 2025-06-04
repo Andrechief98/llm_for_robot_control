@@ -477,10 +477,8 @@ if __name__ == "__main__":
 
     client = OpenAI()
 
-    with open(os.path.join(script_dir, "1_Interaction_results.json"), 'r') as f:
+    with open(os.path.join(script_dir, "results.json"), 'r') as f:
         results = json.load(f)
-
-    #print(results)
 
     
 
@@ -564,7 +562,7 @@ if __name__ == "__main__":
 
     script_dir = os.path.dirname(__file__)
 
-    with open(os.path.join(script_dir, "1_Interaction_results.json"), 'w') as f:
+    with open(os.path.join(script_dir, "results.json"), 'w') as f:
         json.dump(results, f, indent=2)
         
   
