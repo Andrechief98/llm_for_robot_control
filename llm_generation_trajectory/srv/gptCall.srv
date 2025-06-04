@@ -1,5 +1,0 @@
-string prompt_type
-string model
-bool few_shot
----
-geometry_msgs/PoseArray reference
