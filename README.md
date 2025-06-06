@@ -66,6 +66,7 @@ To run the analysis, please download the experiment data from the following link
 
 After downloading the files, organize the data into the folder structure shown below:
 
+```bash
 3.obstacle_avoidance
 ├── static_obstacles/
 |    ├── gpt_4o/
@@ -80,7 +81,7 @@ After downloading the files, organize the data into the folder structure shown b
 ├── dynamic_obstacles/
     ├── o3-mini/
     └── plot_metrics_dynamic.m
-
+```
 
 ## Requirements
 - Python script was tested using python 3.10 and ROS2 Humble (Oracle VM VirtualBox with Ubuntu 22.04)
