@@ -45,11 +45,46 @@ The python script "plot_lemniscate.py" allows to evaluate the performance of con
 5. Computes the mean and standard deviation of inference times for each model.
 
 ### Obstacle avoidance
+This folder contains MATLAB scripts for evaluating the performance of different models in robotic navigation tasks involving both static and dynamic obstacles. The experiments are organized into two main subdirectories:
+
+#### static_obstacles
+This folder contains tools for analyzing experiments involving static obstacles:
+
+- plot_metrics_static.m: A MATLAB script that processes ROS bag files from the experiments and computes evaluation metrics for the tested models.
+
+- check_collision.m: A helper function used by the main script to detect collisions between the robot and obstacles.
+
+#### dynamic_obstacles
+This folder includes tools for analyzing experiments with dynamic obstacles:
+
+- plot_metrics_dynamic.m: A MATLAB script that processes ROS bag files and computes performance metrics for the tested model.
 
 
+#### Data Access
+Due to the large size of the ROS bag files, they are not included in this repository.
+To run the analysis, please download the experiment data from the following link:  [ADD LINK TO THE STORAGE](URL)
+
+After downloading the files, organize the data into the folder structure shown below:
+
+3.obstacle_avoidance
+├── static_obstacles/
+|    ├── gpt_4o/
+|    ├── gpt_4o few-shot/
+|    ├── DeepSeek V3/
+|    ├── DeepSeek V3 Few-Shot/
+|    ├── o3-mini/
+|    ├── check_collision.m
+|    └── plot_metrics_static.m
+|
+|
+├── dynamic_obstacles/
+    ├── o3-mini/
+    └── plot_metrics_dynamic.m
 
 
 ## Requirements
+- Python script was tested using python 3.10 and ROS2 Humble (Oracle VM VirtualBox with Ubuntu 22.04)
+- Matlab scripts were tested with MATLAB2024b
 
 
 ## TODO:
