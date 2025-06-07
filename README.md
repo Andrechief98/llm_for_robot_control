@@ -62,7 +62,7 @@ This folder includes tools for analyzing experiments with dynamic obstacles:
 
 #### Data Access
 Due to the large size of the ROS bag files, they are not included in this repository.
-To run the analysis, please download the experiment data from the following link:  [ADD LINK TO THE STORAGE](URL)
+To run the analysis, please download the experiment data from the following [link](https://mega.nz/file/KkpmUCrK#wHv4bGbS0QiFjCoqTTttRDzW7goj1bHcK8omS7W4x9M)
 
 After downloading the files, organize the data into the folder structure shown below:
 
@@ -86,8 +86,3 @@ After downloading the files, organize the data into the folder structure shown b
 ## Requirements
 - Python script was tested using python 3.10 and ROS2 Humble (Oracle VM VirtualBox with Ubuntu 22.04)
 - Matlab scripts were tested with MATLAB2024b
-
-
-## TODO:
-- update the README.file with correct structure of the folders
-- bag files stored on the external drive
